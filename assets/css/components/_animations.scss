@@ -1,0 +1,86 @@
+@keyframes moveButton {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveButtonRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes fade {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flame{
+  0%{
+    transform: skewY(-2deg);
+    transform-origin:center;
+  }
+  25%{
+    transform: skewX(2deg);
+  }
+  50%{
+    transform: skewY(-2deg);
+  }
+  75%{
+    transform: skewX(2deg);
+  }
+  100%{
+    transform: skewY(-2deg);
+  }
+}
+@keyframes navUp{
+  0%{
+    transform:translateY(-50px);
+  }
+  100%{
+    transform:translateY(0);
+  }
+}
+@keyframes playerUp {
+  0%{
+    transform: translateX(500px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes flameWobble {
+  50% {
+    transform: scale(1,1.2) translate(0, -30px) rotate(-2deg);
+  }
+}
+@keyframes flamefly {
+  0%{
+    transform: translate(0) rotate(180deg);
+  }
+   50% {
+     opacity: 1;
+  }
+  100% {
+    transform: translate(-20px, -100px) rotate(180deg);
+    opacity: 0;
+  }}

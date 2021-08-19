@@ -1,0 +1,19 @@
+{
+  "name": "flame",
+  "version": "1.0.0",
+  "description": "Flame Landingpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelGLeal/Flame-Play-landingpage.git"
+  },
+  "author": "Rafael Leal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelGLeal/Flame-Play-landingpage/issues"
+  },
+  "homepage": "https://github.com/RafaelGLeal/Flame-Play-landingpage#readme"
+}

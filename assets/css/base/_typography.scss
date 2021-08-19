@@ -1,0 +1,30 @@
+
+$font-logo:'Roboto',sans-serif;
+$font-primary:'Orbitron', sans-serif;
+$font-primary-commands:'Roboto', sans-serif;
+$font-btn: 'Teko', sans-serif;
+@mixin fontLogo {
+    font-family: $font-logo;
+    font-size: 5rem;
+    color: $black;
+}
+@mixin fontPrimary {
+    font-family: $font-primary;
+    letter-spacing: 2px;
+    color: $black;
+    font-size: 1rem;
+}
+@mixin fontPrimaryLight {
+    font-family: $font-primary;
+    letter-spacing: 2px;
+    color: $black;
+}
+@mixin fontHeadingPrimary {
+    @include fontPrimary();
+    font-size: 2.5rem;
+}
+
+@mixin fontHeadingSecondary {
+    @include fontLogo();
+    color: $orange-light;
+}

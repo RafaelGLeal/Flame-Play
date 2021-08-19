@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/commands.css">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/46b631f972.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos - Flame Play</title>
+</head>
+<body>
+    <header class="nav">
+        <div class="nav__bar-mobileToggle">
+           <i class="fas fa-times" id="open"></i>
+            <i class="fas fa-bars"></i> 
+        </div>
+        
+        <nav class="nav__bar">
+            <div class="nav__bar-menu">
+                <ul class="menu-list">
+                    <li class="hvr-underline-from-center"><a href="./index.html">Início</a></li>
+                    <li class="hvr-underline-from-center"><a href="./about.html">Sobre</a></li>
+                    <li class="hvr-underline-from-center activePage"><a href="./commands.html">Comandos</a></li>
+                </ul>
+                <button class="btn-primary" onclick="location.href='https://discord.com/oauth2/authorize?client_id=858220919898243073&permissions=2205272384&redirect_uri=http%3A%2F%2Fflameplay.xyz%2F&response_type=code&scope=identify%20guilds%20bot%20applications.commands'">Convide Flame Play™ <i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="nav__bar-logo">
+            <a href="./index.html"><img src="./assets/images/logo.png" alt="Flame Play logo"></a>
+            </div>
+            
+        </nav>
+    </header>
+    
+    <section class="commands" id="commands">
+        <h3>Conheça os <span>comandos</span></h3>
+        <div class="commands_container">
+            <div class="container-box">
+                <h2>f!play 'link ou nome'</h2>
+                <p>Comando utilizado para puxar o bot.</p>
+            </div>
+            <div class="container-box">
+                <h2>f!bassboost </h2>
+                <p>low|medium|high - Ativa o efeito de boost no áudio. </p>
+            </div>
+            <div class="container-box">
+                <h2>f!config </h2>
+                <p>(Apenas adm para mudar o prefix dentro do servidor). </p>
+            </div>
+            <div class="container-box">
+                <h2>f!dc | f!desconectar </h2>
+                <p>Para de tocar música e sai do canal de voz. </p>
+            </div>
+            <div class="container-box">
+                <h2>f!skip | f!pular </h2>
+                <p>Pula a música atual para ir para a proxima. </p>
+            </div>
+            <div class="container-box">
+                <h2> f!pausar | f!pause </h2>
+                <p>Pause a música que está tocando no momento.</p>
+            </div>
+            <div class="container-box">
+                <h2>f!resume</h2>
+                <p>Retomar e começar a tocar a música em pausa. </p>
+            </div>
+            <div class="container-box">
+                <h2>f!repeat </h2>
+                <p>Cria um loop na música atual. </p>
+            </div>
+            <div class="container-box">
+                <h2>f!lyrics | f!letras </h2>
+                <p>Busque a letra da música que está tocando no momento. </p>
+            </div>
+            <div class="container-box">
+                <h2> f!queue | f!fila </h2>
+                <p>Mostra todas as músicas que estão a ser tocadas. </p>
+            </div>
+            <div class="container-box">
+                <h2>f!vol | f!volume </h2>
+                <p>Muda o volume de 1 - 1000. </p>
+            </div>
+            <div class="container-box">
+                <h2>f!remove | f!remover </h2>
+                <p> Remove uma quantidade de músicas da fila. </p>
+            </div>
+            <div class="container-box">
+                <h2>f!shuffle </h2>
+                <p> Toca a playlist aleatoriamente. </p>
+            </div>
+            <div class="container-box">
+                <h2>f!help</h2>
+                <p>Informações sobre todos os comandos.</p>
+            </div>
+            <div class="container-box">
+                <h2>f=seek </h2>
+                <p>Pula alguns segundos, minutos ou horas na música atual.</p>
+            </div>
+            <div class="container-box">
+                <h2> =clearqueue </h2>
+                <p>Limpa a fila de uma completamente.</p>
+            </div>
+            <div class="container-box">
+                <h2>=previous </h2>
+                <p>Toca a música anterior.</p>
+            </div>
+            <div class="container-box">
+                <h2>=songinfo </h2>
+                <p>Obtém informação sobre a música atual.</p>
+            </div>
+            <div class="container-box">
+                <h2> f!search </h2>
+                <p>Busca por uma música em particular.</p>
+            </div>
+            <div class="container-box">
+                <h2>f!nowplaying </h2>
+                <p>Obtém informação para a música atual.</p>
+            </div>
+            <div class="container-box">
+                <h2>f!youtube </h2>
+                <p>Acessa Youtube direto pelo Discord.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__box">
+            <div class="footer__box-logo">
+                <img src="./assets/images/logo.png" alt="">
+                <h2>Flame Play™</h2>
+            </div>
+            <p>Copyright © 2021. All Rights Reserved.</p>
+            <div class="footer__box-icons">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-discord"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/script/main.js"></script>
+</body>
+</html>
