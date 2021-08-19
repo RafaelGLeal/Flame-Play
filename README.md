@@ -39,8 +39,8 @@ Website for Flame Play, an amazing discord bot for your server.
 
 ### What I learned
 
--My first time creating a complete website from zero, all the content of this page was projected and created by me, it's was a really challenge but also a great experience.
--Improve my skills for better optimization.
+- My first time creating a complete website from zero, all the content of this page was projected and created by me, it's was a really challenge but also a great experience.
+- Improve my skills for better optimization.
 
 ![](./screenshot2.png)
 
