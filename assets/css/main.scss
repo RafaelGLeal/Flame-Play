@@ -325,11 +325,11 @@ body {
     }
   }
   .footer__box{
-    max-width: 30% !important;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    justify-content:center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     &-icons{
       padding: 0;
     }
