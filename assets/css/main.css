@@ -810,7 +810,7 @@ body p {
     margin: 0 10px;
   }
   .footer__box {
-    max-width: 70%;
+    max-width: 30%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
